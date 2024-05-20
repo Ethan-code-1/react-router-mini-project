@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Navbar from "../components/Navbar.jsx"; 
+import Footer from "../components/Footer.jsx"; 
+
 import "../styles/root.css";
 
 export const Root = () => {
@@ -20,6 +22,7 @@ export const Root = () => {
                     <p className = "biotext">Elementum eu facilisis sed odio morbi. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. At ultrices mi tempus imperdiet nulla malesuada. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Malesuada fames ac turpis egestas integer eget aliquet. Dui vivamus arcu felis bibendum ut. Elit eget gravida cum sociis natoque penatibus et magnis dis. Egestas tellus rutrum tellus pellentesque eu tincidunt. Accumsan lacus vel facilisis volutpat est. Turpis massa tincidunt dui ut ornare lectus sit amet. Duis at tellus at urna condimentum mattis pellentesque. In hac habitasse platea dictumst vestibulum. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Placerat in egestas erat imperdiet sed euismod.</p>
                 </div>
             </div>
+            <Footer />
 		</div>
 	);
 };

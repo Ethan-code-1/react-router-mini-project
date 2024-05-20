@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar.jsx";
 import { Box, Button, ListItemText, Typography, Container, List, ListItem } from '@mui/material';
 
 import "../styles/projects.css";
+import Footer from "../components/Footer.jsx"; 
 
 
 export const Projects = () => {
@@ -43,7 +44,7 @@ export const Projects = () => {
                 </List>
             </Box>
         </Container>
-			
+        <Footer />
 		</div>
 	);
 };
